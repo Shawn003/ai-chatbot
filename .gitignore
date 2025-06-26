@@ -1,0 +1,15 @@
+# Prevent secrets and environment-specific files from being pushed
+.streamlit/secrets.toml
+.env
+
+# Bytecode / Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# System files
+.DS_Store
+
+# VSCode or editor settings (optional)
+.vscode/
+.idea/
